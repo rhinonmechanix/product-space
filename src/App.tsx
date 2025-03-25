@@ -16,7 +16,7 @@ const App = () => {
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <Navbar />
-      <main className="flex-grow">
+      <main className="flex-grow relative">
         <Hero />
         <Transitions />
         <Stats />
